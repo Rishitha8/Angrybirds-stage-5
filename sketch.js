@@ -75,6 +75,11 @@ function mouseDragged(){
 function mouseReleased(){
     slingshot.fly();
 }
+// this funtion is inbuilt function.
 function keyPressed(){
-    slingshot.attach(bird.body);
+  // ASCII code for space is 32.
+    if(keyCode === 32){
+        slingshot.attach(bird.body);
+    }
+    
 }
