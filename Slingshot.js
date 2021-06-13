@@ -13,6 +13,7 @@ class SlingShot{
         this.sling = Constraint.create(options);
         World.add(world, this.sling);
     }
+  // this is for the bird to attach to sling.
     attach(body){
         this.sling.bodyA = body;
     }
